@@ -5413,7 +5413,6 @@ __metadata:
     react-native-pager-view: "npm:^6.7.0"
     react-native-reanimated: "npm:^3.17.4"
     react-native-tab-view: "npm:^4.0.10"
-    react-native-worklets: "npm:^0.4.0"
     release-it: "npm:^19.0.4"
     typescript: "npm:^5.8.3"
   peerDependencies:
@@ -17319,28 +17318,6 @@ __metadata:
     react: ^18.0.0
     react-dom: ^18.0.0
   checksum: 10/65e0660fb37c1f7e3864a7b506acdd3bbf249de516166775cbf2f371bc28f6e965bc01cbd214bfe820c1a933aee58b6fb29298ccd0dc5f412f147a57e7126dd9
-  languageName: node
-  linkType: hard
-
-"react-native-worklets@npm:^0.4.0":
-  version: 0.4.0
-  resolution: "react-native-worklets@npm:0.4.0"
-  dependencies:
-    "@babel/plugin-transform-arrow-functions": "npm:^7.0.0-0"
-    "@babel/plugin-transform-class-properties": "npm:^7.0.0-0"
-    "@babel/plugin-transform-classes": "npm:^7.0.0-0"
-    "@babel/plugin-transform-nullish-coalescing-operator": "npm:^7.0.0-0"
-    "@babel/plugin-transform-optional-chaining": "npm:^7.0.0-0"
-    "@babel/plugin-transform-shorthand-properties": "npm:^7.0.0-0"
-    "@babel/plugin-transform-template-literals": "npm:^7.0.0-0"
-    "@babel/plugin-transform-unicode-regex": "npm:^7.0.0-0"
-    "@babel/preset-typescript": "npm:^7.16.7"
-    convert-source-map: "npm:^2.0.0"
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-    react: "*"
-    react-native: "*"
-  checksum: 10/c0cdf0356eeab1851701d380099913944081fb7560e58c715babfd90edbc320a93578c22b35498f34d623640a271cee541f240d004fbc05ec556f583fdc0678b
   languageName: node
   linkType: hard
 

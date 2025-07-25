@@ -3,6 +3,7 @@ import { StyleSheet } from "react-native";
 
 import { Gesture, GestureDetector } from "react-native-gesture-handler";
 import Animated, {
+  runOnJS,
   useAnimatedRef,
   useAnimatedScrollHandler,
   useAnimatedStyle,
@@ -13,7 +14,6 @@ import Animated, {
 import { useSyncInitialPosition } from "./hooks/use-sync-initial-position";
 import { useHeaderTabContext } from "./context";
 import type { SceneProps } from "./types";
-import { runOnJS } from "react-native-worklets";
 
 function mergeRefs<T>(
   ...inputRefs: (React.Ref<T> | undefined)[]

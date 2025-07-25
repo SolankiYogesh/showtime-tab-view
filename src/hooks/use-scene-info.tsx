@@ -2,13 +2,13 @@
 import { useCallback, useEffect, useState } from "react";
 
 import {
+  runOnJS,
   useAnimatedReaction,
   useSharedValue,
   type SharedValue,
 } from "react-native-reanimated";
 
 import type { UpdateSceneInfoParams } from "../types";
-import { runOnJS } from "react-native-worklets";
 
 export const useSceneInfo = (curIndexValue: SharedValue<number>) => {
   // Are all the fields on the scene ready

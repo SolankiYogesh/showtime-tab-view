@@ -2,11 +2,10 @@ import type React from "react";
 import { useCallback, useRef } from "react";
 
 import type Animated from "react-native-reanimated";
-import { useSharedValue } from "react-native-reanimated";
+import { runOnUI, useSharedValue } from "react-native-reanimated";
 
 import { useHeaderTabContext } from "../context";
 import { _ScrollTo } from "../utils";
-import { runOnUI } from "react-native-worklets";
 
 export const useSyncInitialPosition = (
   ref: React.RefObject<Animated.ScrollView>
