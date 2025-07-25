@@ -2,7 +2,7 @@ import React from "react";
 import {
   Platform,
   SectionList as RNSectionList,
-  SectionListProps,
+  type SectionListProps,
 } from "react-native";
 
 import Animated from "react-native-reanimated";

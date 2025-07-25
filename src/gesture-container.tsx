@@ -20,7 +20,6 @@ import Animated, {
   cancelAnimation,
   Extrapolation,
   interpolate,
-  runOnJS,
   useAnimatedReaction,
   useAnimatedStyle,
   useDerivedValue,
@@ -37,6 +36,7 @@ import { HeaderTabContext } from "./context";
 import RefreshControlContainer from "./refresh-control";
 import type { GestureContainerProps, Route } from "./types";
 import { _ScrollTo, animateToRefresh, isIOS } from "./utils";
+import { runOnJS } from "react-native-worklets";
 
 const { width } = Dimensions.get("window");
 

@@ -2,10 +2,10 @@ import { Platform } from "react-native";
 
 import {
   type SharedValue,
-  runOnJS,
   scrollTo,
   withTiming,
 } from "react-native-reanimated";
+import { runOnJS } from "react-native-worklets";
 
 export function _ScrollTo(ref: never, x: number, y: number, animated: boolean) {
   "worklet";
